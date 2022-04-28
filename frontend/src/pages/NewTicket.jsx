@@ -109,7 +109,7 @@ function NewTicket() {
                 <img className='cupImages' src={large}></img>
               )}
             </div>
-            <h1 className='text-xl underline'>Hello world!</h1>
+            <h1 className='text-xl font-bold underline'>Hello world!</h1>
           </div>
           <div className='form-group'>
             <label htmlFor='description'>Special requests:</label>

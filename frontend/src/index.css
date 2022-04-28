@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   margin: 0;
@@ -41,9 +38,9 @@ h3 {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 100vw;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
   text-align: center;
 }
 
@@ -51,10 +48,16 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 5px 0;
   border-bottom: 1px solid #e6e6e6;
-  margin-bottom: 60px;
-  background-color: #718355;
+  margin-bottom: 30px;
+  background: rgb(69, 88, 41);
+  background: linear-gradient(
+    180deg,
+    rgba(69, 88, 41, 1) 0%,
+    rgba(113, 131, 85, 1) 33%
+  );
+  border-bottom: solid 3px rgb(21, 106, 33);
 }
 
 .header ul {
@@ -144,7 +147,11 @@ h3 {
   display: block;
   margin: 0 0 5px 3px;
 }
-
+.homeCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .btn {
   padding: 10px 20px;
   border-radius: 5px;
@@ -156,9 +163,9 @@ h3 {
   border: none;
   text-align: center;
   appearance: button;
-  display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 50vw;
 }
 
 .btn svg {
@@ -280,7 +287,7 @@ h3 {
 }
 
 .ticket-page .btn-block {
-  width: 100%;
+  width: 20%;
   margin-top: 30px;
 }
 
