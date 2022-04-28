@@ -1,28 +1,20 @@
-# Support Desk App
 
-Support ticket application built with the MERN stack. This is a project from my [React Front To Back](https://www.udemy.com/course/react-front-to-back-2022/?referralCode=4A622C7E48DB66154114) course.
 
-## Usage
+https://user-images.githubusercontent.com/97664519/165757586-8f83530f-1b17-4871-8f37-63004824cd22.mp4
 
-### Set Environment Variables
 
-Rename the .envexample to .env and add your [MongoDB](https://www.mongodb.com/) database URI and your JWT secret
+# Java Chip coffee shop ordering terminal
 
-### Install backend dependencies
+Cashier's can log into the to the app and take a customer's order.
+The order is saved to a database. Orders have a section for
+notes and can be closed when completed. 
+Each user has their unique order que, or all workers may use the same
+ID to track it cohesively.
+## Badges
 
-```bash
-npm install
-```
+Add badges from somewhere like: [shields.io](https://shields.io/)
 
-### Install client dependencies
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-```bash
-cd frontend
-npm install
-```
-
-### Run app in development (frontend & backend)
-
-```bash
-npm run dev
-```
