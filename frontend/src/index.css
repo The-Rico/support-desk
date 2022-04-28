@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -9,6 +12,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   height: 100vh;
+  background-color: #e9f5db;
 }
 
 a {
@@ -50,6 +54,7 @@ h3 {
   padding: 20px 0;
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 60px;
+  background-color: #718355;
 }
 
 .header ul {
@@ -68,11 +73,15 @@ h3 {
 }
 
 .header ul li a:hover {
-  color: #777;
+  color: #e9f5db;
 }
 
 .header ul li a svg {
   margin-right: 5px;
+}
+
+.logo {
+  margin-left: 3em;
 }
 
 .heading {
@@ -138,13 +147,13 @@ h3 {
 
 .btn {
   padding: 10px 20px;
-  border: 1px solid #000;
   border-radius: 5px;
-  background: #000;
-  color: #fff;
+  background: #718355;
+  color: rgb(233, 233, 233);
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   cursor: pointer;
+  border: none;
   text-align: center;
   appearance: button;
   display: flex;
@@ -157,7 +166,7 @@ h3 {
 }
 
 .btn-reverse {
-  background: #fff;
+  background: #b5c99a;
   color: #000;
 }
 
@@ -282,6 +291,13 @@ h3 {
   border: 1px #ccc solid;
   padding: 10px 15px;
   border-radius: 5px;
+}
+.coffeeImages {
+  width: 200px;
+  height: 200px;
+}
+.cupImages {
+  max-height: 200px;
 }
 
 .note {

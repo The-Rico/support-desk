@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const ticketSchema = mongoose.Schema(
   {
@@ -10,11 +10,11 @@ const ticketSchema = mongoose.Schema(
     product: {
       type: String,
       required: [true, 'Please select a product'],
-      enum: ['iPhone', 'Macbook Pro', 'iMac', 'iPad'],
+      enum: ['Mocha', 'Latte', 'Espresso', 'Cappuccino'],
     },
     description: {
       type: String,
-      required: [true, 'Please enter a description of the issue'],
+      required: [true, 'Special request'],
     },
     status: {
       type: String,
@@ -26,6 +26,6 @@ const ticketSchema = mongoose.Schema(
   {
     timestamps: true,
   }
-)
+);
 
-module.exports = mongoose.model('Ticket', ticketSchema)
+module.exports = mongoose.model('Ticket', ticketSchema);
